@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Matthew Daw</title>
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- bootstrap libraries -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="assets/css/projects.css"/>
+<link rel="stylesheet" href="assets/css/standard.css"/>
+</head>
+<!--navbar links to home pages -->
+<body>
+  <nav class="navbar fixed-to" id='navigation_bar'>
+    <div class="container-fluid">
+      <div class="navbar-header", id='nav_bar_text'>
+        <a class="navbar-brand" href="index.html">Matthew Daw</a>
+      </div>
+      <ul class="nav navbar-nav", id='nav_bar_links'>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about_matthew.html">About Matthew</a></li>
+        <li><a href="math_notebooks.html">Notebooks</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="assets/Matthew Daw Resume.pdf">Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/matthew-d-787b0294/">LinkedIn</a></li>
+      </ul>
+    </div>
+    <!--navbar for note books-->
+  </nav>
+    <span id="main_head">Math Notebooks</span>
+    <div class="flex_container">
+    <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Image Compression</u>
+            </h1>
+          
+            <div class="flex_container">
+            <div class="table_column">
+              <td>Original Image</td>
+              <td><a href="#" class="pop"><img src="images/math_images/uncompressed_galaxy.png" id="box_image" /></a></td>
+              <td>Original Image</td>
+              <td><a href="#" class="pop"><img src="images/math_images/uncompressed_finger.png" id="box_image"/></a></td>
+              
+            </div>
+            <div  class="table_column">
+              <td>92.7% compression</td>
+              <td><a href="#" class="pop"><img src="images/math_images/compressed_galaxy.png" id="box_image"/></a> </td>
+              <td>96.4% compression</td>
+              <td> <a href="#" class="pop"><img src="images/math_images/compressed_finger.png" id="box_image"/></a></td>
+            </div>
+          </div>
+
+        </div>
+        
+        <div id="project_text">   
+            
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Computer Vision</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#SVD</div>
+                <div class="skill_box" style="color:rgb(76, 104, 33)">#Harr Wavelets</div>
+                <div class="skill_box" style="color:rgb(104, 33, 77)">#Python</div>
+            </div>
+            
+            <ul>
+              <li>
+                First row was compressed using SVD
+              </li>
+              <li>
+                Second row was compressed using Harr Wavelets
+              </li>
+              
+            </ul>
+            <!--flex container for links to pages -->
+            <div class="flex_container">
+                <a type="button" href="assets/notebook_files/Data_compression.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Sample
+                </a>
+                <a type="button" href="https://github.com/MatthewDaw/image_compression" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                  Github
+              </a>
+            </div>
+        </div>
+      </div>
+      <!--container image segmentation-->
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Image Segmentation</u>
+                </h1>
+          <div class=""flex_container>
+
+            <a href="#" class="pop"><img src="images/math_images/original_palm.png" class="palm_image"  id="box_image"/></a>
+            <a href="#" class="pop"><img src="images/math_images/positive_pair.png" class="palm_image"  id="box_image"/></a>
+            <a href="#" class="pop"><img src="images/math_images/negative_pair.png" class="palm_image"  id="box_image"/></a>
+
+          </div>
+        </div>
+        
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Computer Vision</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Spectral Graph Theory</div>
+                <div class="skill_box" style="color:rgb(76, 104, 33)">#Python</div>
+                <div class="skill_box" style="color:rgb(104, 33, 77)">#Graph Cut</div>
+            </div>
+            <!--container for graph cut method,image segmentation algorithm-->
+            For this project I demonstrate the graph cut method, a self-supervsied image segmentation algorithm.
+
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/image_segmentation.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/image_segmentation" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+        
+      <!--container project_entry-->
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Newton's Method</u>
+                </h1>
+                <a href="#" class="pop"><img src="images/math_images/newton_fractal.png" id="box_image"/></a>
+
+        </div>
+        
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Numerical Series</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Python</div>
+            </div>
+            
+            For this project, we recreate fractals related to Newton's Method
+             
+            <!--containe-home page funstion-->
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/newtons_functions.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/newtons_function" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Complex Function Visualizations</u>
+                </h1>
+                <a href="#" class="pop"><img src="images/math_images/complex_func_visualize2.png" id="box_image"/></a>
+        </div>
+        
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Complex Analysis</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Python</div>
+            </div>
+            
+            Here we provide visualizations and interpertations of various functions in the complex plane.
+
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/complex_functions.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/Complex_Functions" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+      
+
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Facial Detection</u>
+                </h1>
+                <a href="#" class="pop"><img src="images/math_images/face1.png" id="box_image"/></a>
+        </div>
+        
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Eigen Values / Eigen Vectors</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Comptuer Vision</div>
+                <div class="skill_box" style="color:rgb(76, 104, 33)">#Data Structures</div>
+                <div class="skill_box" style="color:rgb(104, 33, 77)">#Python</div>
+            </div>
+            <!--flex_container eigenfunction-->
+            This demonstrates facial detection with eigenfunctions. I regerously understand the math used in this notebook and am able to write proofs for why the method works.
+
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/facial_recognition.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/facial_recognition" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <!--container convex optimization-->
+
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Convex Optimization</u>
+                </h1>
+
+                <a href="#" class="pop"><img src="images/math_images/tent-removebg-preview.png" id="box_image"/></a>
+        </div>
+
+        <!--container skill_box-->
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Convex Optimization</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Optimizationing With Constraints</div>
+                <div class="skill_box" style="color:rgb(76, 104, 33)">#Python</div>
+            </div>
+            
+            <ul>
+              <li>Minimizing canvas to cover 5 pole tent</li>
+              <li>Optimizing marriage decision timing given limited number of dates</li>
+              <li>Optimizing cake consumption rate given marginal returns in serving sizes and molding of food</li>
+            </ul>
+
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/convex_optimization.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                      Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/convex_optimization" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <!--container image classification with cnn-->
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+            <h1>
+                <u>Image Classification With CNN</u>
+                </h1>
+
+                <a href="#" class="pop"><img src="images/math_images/ConvolutionalNeuralNetwork-removebg-preview.png" id="box_image"/></a>
+        </div>
+        
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Convolutional Neural Network</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Hyperparameter Tuning</div>
+                <div class="skill_box" style="color:rgb(76, 104, 33)">#Pytorch</div>
+                <div class="skill_box" style="color:rgb(104, 33, 77)">#Python</div>
+            </div>
+            <!--  container custom recurrent convolutional network and  do hyperparameter optimization-->
+            The purpose of this lab was to write a custom recurrent convolutional network and do hyperparameter optimization without Weights and Biases.
+
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/HyperZoo.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                      Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/image_classification" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <!--flex_container project_entry-->
+      <div class="flex_container project_entry">
+        <div id='image_box'>
+                <h1>
+                  <u>Reinforcement Learning</u>
+                </h1>
+                <a href="#" class="pop"><img src="images/math_images/cart_pole-removebg-preview.png" id="box_image"/></a>
+        </div>
+        
+        <div id="project_text"> 
+            <div class="skill_box_container">
+                <div class="skill_box" style="color:rgb(59, 109, 218)">#Deep Q Learning</div>
+                <div class="skill_box" style="color:rgb(218, 59, 59)">#Proximal Policy Optimization</div>
+                <div class="skill_box" style="color:rgb(76, 104, 33)">#Deep Learning</div>
+                <div class="skill_box" style="color:rgb(104, 33, 77)">#Pytorch</div>
+                <div class="skill_box" style="color:rgb(104, 61, 33)">#Python</div>
+            </div>
+
+            <!-- container reinforcement-->
+            Here we learn to keep a pole upright by using Deep Q Learning and Proximal Policy Optimization
+            <div class="flex_container">
+                  <a type="button" href="assets/notebook_files/Deep Reinforcement.html" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                      Sample
+                  </a>
+                  <a type="button" href="https://github.com/MatthewDaw/Reinforcement_Learning" id="link_button" class="btn btn-primary " aria-pressed="false" autocomplete="off">
+                    Github
+                </a>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Modal component-->
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">              
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <img src="" class="imagepreview" style="width: 100%;" >
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+<script>
+  $(function() {
+      $('.pop').on('click', function() {
+        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal').modal('show');   
+      });		
+  });
+  </script>

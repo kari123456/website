@@ -1,0 +1,32 @@
+/* Header */
+#navigation_bar{
+    background-color: #3c9247;
+    color: white;
+    font-family: 'monospace';
+    color:rgb(21, 21, 214)
+}
+
+#banner{
+    position:relative;
+    min-width: 100%; 
+    min-height: 20em;
+    top: -1.4em;
+
+}
+
+#nav_bar_text a {
+    color: white;
+}
+
+#nav_bar_links a:hover{
+    color: black;
+}
+
+#nav_bar_links a {
+    color: rgb(231, 228, 252)
+}
+
+body {
+    background: rgb(80, 80, 85);
+    color: white;
+}

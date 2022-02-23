@@ -1,0 +1,47 @@
+
+
+#main_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#image_container {
+    width: 35em;
+    min-height: 2em;
+    margin: 2em;
+    float: right;
+}
+
+#bio_image {
+    width: 100%;
+}
+
+#bio_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:2em;
+    padding: 2em;
+    background-color: rgb(35, 35, 36);
+
+}
+
+#main_text_box {
+    text-align: justify;
+}
+
+a {
+    color:rgb(77, 124, 255);
+}
+ 
+a:hover{
+    color:rgb(113, 151, 255);
+}
+
+#main_text_box{
+    max-width: 80em;
+}
